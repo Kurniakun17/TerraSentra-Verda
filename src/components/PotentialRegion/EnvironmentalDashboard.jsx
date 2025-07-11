@@ -1,15 +1,11 @@
 import {
   AlertTriangle,
-  Calendar,
   CheckCircle,
   Clock,
-  Cloud,
   Droplet,
   Info,
   Leaf,
-  Thermometer,
 } from "lucide-react";
-import React from "react";
 
 export default function EnvironmentalDashboard({ data }) {
   const getValueText = (value, type) => {
@@ -47,49 +43,56 @@ export default function EnvironmentalDashboard({ data }) {
   };
 
   const getInsightData = () => {
-    const precipText = data.precipitation < 10 ? 
-      "Low precipitation levels in this region." : 
-      data.precipitation > 60 ? 
-        "Heavy rainfall detected in this area." : 
-        "Moderate rainfall levels are present.";
-        
-    const soilText = data.sentinel < -15 ? 
-      "Surface moisture readings indicate dry conditions." : 
-      data.sentinel > -8 ? 
-        "Higher surface moisture levels detected in this area." : 
-        "Moderate surface moisture levels are present.";
-        
-    const ndviText = data.ndvi < 0.3 ? 
-      "Low vegetation density in this region." : 
-      data.ndvi > 0.7 ? 
-        "Dense and healthy vegetation coverage detected." : 
-        "Moderate vegetation coverage observed.";
+    const precipText =
+      data.precipitation < 10
+        ? "Low precipitation levels in this region."
+        : data.precipitation > 60
+        ? "Heavy rainfall detected in this area."
+        : "Moderate rainfall levels are present.";
+
+    const soilText =
+      data.sentinel < -15
+        ? "Surface moisture readings indicate dry conditions."
+        : data.sentinel > -8
+        ? "Higher surface moisture levels detected in this area."
+        : "Moderate surface moisture levels are present.";
+
+    const ndviText =
+      data.ndvi < 0.3
+        ? "Low vegetation density in this region."
+        : data.ndvi > 0.7
+        ? "Dense and healthy vegetation coverage detected."
+        : "Moderate vegetation coverage observed.";
 
     // Overall assessment
     let overallStatus = "neutral";
     let overallMessage = "";
-    
+
     if (data.ndvi > 0.5 && data.sentinel > -15 && data.sentinel < -8) {
       overallStatus = "positive";
       overallMessage = "Balanced environmental conditions in this region.";
-    } else if (data.ndvi < 0.3 || data.sentinel < -15 || data.precipitation < 5) {
+    } else if (
+      data.ndvi < 0.3 ||
+      data.sentinel < -15 ||
+      data.precipitation < 5
+    ) {
       overallStatus = "warning";
       overallMessage = "Some environmental indicators show potential concerns.";
     } else {
-      overallMessage = "General environmental conditions are within normal ranges.";
+      overallMessage =
+        "General environmental conditions are within normal ranges.";
     }
-    
+
     return {
       precipitation: precipText,
       soil: soilText,
       ndvi: ndviText,
       overall: {
         status: overallStatus,
-        message: overallMessage
-      }
+        message: overallMessage,
+      },
     };
   };
-
 
   const insights = getInsightData();
 
@@ -221,54 +224,70 @@ export default function EnvironmentalDashboard({ data }) {
 
       {/* Insight of the metrics */}
       <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-      <div className="flex items-center mb-4">
-        <Info className="text-blue-600 mr-2" size={20} />
-        <h4 className="text-lg font-bold text-gray-800">Environmental Insights</h4>
-      </div>
-      
-      <div className="space-y-4">
-        {/* Overall status */}
-        <div className={`p-4 rounded-lg ${
-          insights.overall.status === "positive" ? "bg-green-50 border-l-4 border-green-500" : 
-          insights.overall.status === "warning" ? "bg-amber-50 border-l-4 border-amber-500" : 
-          "bg-blue-50 border-l-4 border-blue-500"
-        }`}>
-          <div className="flex items-center">
-            {insights.overall.status === "positive" ? (
-              <CheckCircle className="text-green-600 mr-2 flex-shrink-0" size={18} />
-            ) : insights.overall.status === "warning" ? (
-              <AlertTriangle className="text-amber-600 mr-2 flex-shrink-0" size={18} />
-            ) : (
-              <Info className="text-blue-600 mr-2 flex-shrink-0" size={18} />
-            )}
-            <p className="text-sm font-medium">
-              {insights.overall.message}
-            </p>
-          </div>
+        <div className="flex items-center mb-4">
+          <Info className="text-blue-600 mr-2" size={20} />
+          <h4 className="text-lg font-bold text-gray-800">
+            Environmental Insights
+          </h4>
         </div>
-        
-        {/* Detailed insights */}
-        <div className="grid grid-cols-1 gap-3 mt-3">
-          <div className="flex items-start">
-            <Droplet className="text-blue-600 mr-2 mt-1 flex-shrink-0" size={16} />
-            <p className="text-sm text-gray-700">{insights.precipitation}</p>
-          </div>
-          
-          <div className="flex items-start">
-            <Droplet className="text-cyan-600 mr-2 mt-1 flex-shrink-0" size={16} />
-            <p className="text-sm text-gray-700">{insights.soil}</p>
-          </div>
-          
-          <div className="flex items-start">
-            <Leaf className="text-green-600 mr-2 mt-1 flex-shrink-0" size={16} />
-            <p className="text-sm text-gray-700">{insights.ndvi}</p>
-          </div>
-        </div>
-        
-       
-      </div>
-    </div>
 
+        <div className="space-y-4">
+          {/* Overall status */}
+          <div
+            className={`p-4 rounded-lg ${
+              insights.overall.status === "positive"
+                ? "bg-green-50 border-l-4 border-green-500"
+                : insights.overall.status === "warning"
+                ? "bg-amber-50 border-l-4 border-amber-500"
+                : "bg-blue-50 border-l-4 border-blue-500"
+            }`}
+          >
+            <div className="flex items-center">
+              {insights.overall.status === "positive" ? (
+                <CheckCircle
+                  className="text-green-600 mr-2 flex-shrink-0"
+                  size={18}
+                />
+              ) : insights.overall.status === "warning" ? (
+                <AlertTriangle
+                  className="text-amber-600 mr-2 flex-shrink-0"
+                  size={18}
+                />
+              ) : (
+                <Info className="text-blue-600 mr-2 flex-shrink-0" size={18} />
+              )}
+              <p className="text-sm font-medium">{insights.overall.message}</p>
+            </div>
+          </div>
+
+          {/* Detailed insights */}
+          <div className="grid grid-cols-1 gap-3 mt-3">
+            <div className="flex items-start">
+              <Droplet
+                className="text-blue-600 mr-2 mt-1 flex-shrink-0"
+                size={16}
+              />
+              <p className="text-sm text-gray-700">{insights.precipitation}</p>
+            </div>
+
+            <div className="flex items-start">
+              <Droplet
+                className="text-cyan-600 mr-2 mt-1 flex-shrink-0"
+                size={16}
+              />
+              <p className="text-sm text-gray-700">{insights.soil}</p>
+            </div>
+
+            <div className="flex items-start">
+              <Leaf
+                className="text-green-600 mr-2 mt-1 flex-shrink-0"
+                size={16}
+              />
+              <p className="text-sm text-gray-700">{insights.ndvi}</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

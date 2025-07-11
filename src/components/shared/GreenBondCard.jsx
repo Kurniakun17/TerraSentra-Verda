@@ -4,13 +4,18 @@ import { formatCurrency } from "../../utils/functions";
 export const GreenBondCard = ({ bond }) => {
   const progress = Math.floor((bond.fundraised / bond.fundrequired) * 100);
 
+  const images = [
+    "https://cdn.prod.website-files.com/66b08e9ac816df76ceba1aab/66b08e9ac816df76ceba1dfe_article-facts-reforestation-prestataire.webp",
+    "https://www.montereyboats.com/zupload/library/255/-601-960x4000-0.jpg?ztv=20141215115108",
+    "https://joca-cable.com/wp-content/uploads/2024/07/%E6%9C%AA%E5%91%BD%E5%90%8D%E7%9A%84%E8%AE%BE%E8%AE%A1-72-1.png",
+  ];
 
   return (
     <div className="pt-6 rounded-xl ">
       <div className="flow-root bg-white rounded-lg overflow-clip border border-gray-300 pb-8 ">
         <div>
           <img
-            src={bond.photos[0]}
+            src={images[bond.id-1]}
             alt={bond.title}
             className="object-cover max-h-[200px] w-full"
           />

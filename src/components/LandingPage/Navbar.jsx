@@ -35,7 +35,10 @@ export default function Navbar() {
                 }}
               >
                 <div className="flex gap-8">
-                  <a href="/potential-regions" className="hover:bg-gray-100 text-sm">
+                  <a
+                    href="/potential-regions"
+                    className="hover:bg-gray-100 text-sm"
+                  >
                     Potential Region
                   </a>
                   <a
@@ -43,12 +46,6 @@ export default function Navbar() {
                     className="hover:bg-gray-100 text-sm"
                   >
                     Green Bond Marketplace
-                  </a>
-                  <a
-                    href="/greencredit-marketplace"
-                    className=" hover:bg-gray-100 text-sm"
-                  >
-                    Green Credit Marketplace
                   </a>
                   <a
                     href="/carbon-offset-marketplace"

@@ -4,6 +4,24 @@ import useGreenBondStore from "../../store/greenBondStore";
 import { formatCurrency } from "../../utils/functions";
 import toast, { Toaster } from "react-hot-toast";
 
+const detailImages = {
+  1: [
+    "https://cdn.prod.website-files.com/66b08e9ac816df76ceba1aab/66b08e9ac816df76ceba1dfe_article-facts-reforestation-prestataire.webp",
+    "https://www.green.earth/hubfs/080824_Reforestation-projects-around-the-world-success-stories-and-lessons-learnedVisual_Featured.png",
+    "https://www.volunteerforever.com/wp-content/uploads/2024/05/iStock-1156208490-e1716213324241.jpg",
+  ],
+  2: [
+    "https://www.montereyboats.com/zupload/library/255/-601-960x4000-0.jpg?ztv=20141215115108",
+    "https://www.birdlife.org/wp-content/uploads/2024/07/shutterstock_2239716803.jpg",
+    "https://floridabirdingtrail.com/wp-content/uploads/2015/12/mangrove-swamp.jpg",
+  ],
+  3: [
+    "https://joca-cable.com/wp-content/uploads/2024/07/%E6%9C%AA%E5%91%BD%E5%90%8D%E7%9A%84%E8%AE%BE%E8%AE%A1-72-1.png",
+    "https://www.sepco-solarlighting.com/hs-fs/hubfs/Blog_Pics/Solar_on_Roof.jpeg?width=600&name=Solar_on_Roof.jpeg",
+    "https://qmerit.com/wp-content/uploads/2024/03/Making-Solar-Work-for-You-Understanding-How-Solar-Panels-Work-on-a-House-thumbnail.jpg",
+  ],
+};
+
 export default function HeaderGreenBond() {
   const [activeSlide, setActiveSlide] = useState(0);
   const [showPurchaseOverlay, setShowPurchaseOverlay] = useState(false);
@@ -18,7 +36,6 @@ export default function HeaderGreenBond() {
   const percentage =
     Math.floor((bondDetail.fundraised / bondDetail.fundrequired) * 100) + "%";
 
- 
   const handlePrevSlide = () => {
     setActiveSlide(
       activeSlide === 0 ? bondDetail.photos.length - 1 : activeSlide - 1
@@ -83,7 +100,7 @@ export default function HeaderGreenBond() {
       <div className="mt-6 relative">
         <div className="rounded-lg overflow-hidden">
           <img
-            src={bondDetail.photos[activeSlide]}
+            src={detailImages[bondDetail.id][activeSlide]}
             alt={`Project image ${activeSlide + 1}`}
             className="w-full h-96 object-cover"
           />

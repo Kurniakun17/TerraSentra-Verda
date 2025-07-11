@@ -19,9 +19,15 @@ export default function AvailableGreenbonds() {
 
         <div className="mt-4">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {bonds.map((bond, index) => (
-              <GreenBondCard key={`greenbond-${index}`} bond={bond} />
-            ))}
+            {bonds.map((bond, index) => {
+              return (
+                <GreenBondCard
+                  key={`greenbond-${index}`}
+                  bond={bond}
+                  index={index}
+                />
+              );
+            })}
           </div>
         </div>
       </div>

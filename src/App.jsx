@@ -20,7 +20,6 @@ function App() {
     fetch("/indonesiaProvince-topo.json")
       .then((response) => response.json())
       .then((topoData) => {
-        
         try {
           const convertedData = formatTopoJSON(topoData, "provinces");
           setGeoJsonData(convertedData);

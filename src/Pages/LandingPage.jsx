@@ -46,7 +46,7 @@ const LandingPage = () => {
 
       <KeyFeatures />
       <AvailableGreenbonds />
-      <AvailableGreenCredit />
+      {/* <AvailableGreenCredit /> */}
       <Goals />
       <HowWorks />
 

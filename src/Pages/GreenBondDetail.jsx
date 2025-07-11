@@ -121,7 +121,7 @@ export default function GreenBondDetail() {
                 <>
                   <ROICalculator />
                   <MonitoringNDVI />
-                  <FiscalIndexMap/>
+                  <FiscalIndexMap />
                   <OrderBook data={bondDetail.order_book} />
                 </>
               )}
