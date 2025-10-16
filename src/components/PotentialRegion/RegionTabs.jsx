@@ -384,7 +384,6 @@ export default function RegionTabs({ data }) {
                   Green Project Recommendation
                 </h1>
               </div>
-              
             </div>
 
             {/* Regional Resources */}
@@ -399,7 +398,7 @@ export default function RegionTabs({ data }) {
                 <div className="flex items-center pl-2">
                   <Users size={16} className="text-blue-600 mr-2" />
                   <span className="text-gray-700">
-                    {data.details.top_human_resource_skill}
+                    {data.details?.top_human_resource_skill || "N/A"}
                   </span>
                 </div>
               </div>
@@ -414,85 +413,105 @@ export default function RegionTabs({ data }) {
                 <div className="flex items-center pl-2">
                   <Flame size={16} className="text-amber-600 mr-2" />
                   <span className="text-gray-700">
-                    {data.details.top_natural_resource}
+                    {data.details?.top_natural_resource || "N/A"}
                   </span>
                 </div>
               </div>
             </div>
 
             {/* Project Card */}
-            <div className="border border-gray-200 rounded-lg overflow-hidden mb-8">
-              <div className="bg-green-100 p-4">
-                <div className="flex items-center">
-                  <Leaf size={20} className="text-green-600 mr-2" />
-                  <h2 className="text-lg font-bold text-gray-800">
-                    {data.details.green_project.name}
-                  </h2>
-                </div>
-              </div>
-
-              <div className="p-5">
-                {/* Justification */}
-                <div className="mb-6">
-                  <h3 className="text-md font-semibold text-gray-700 mb-2">
-                    Project Justification
-                  </h3>
-                  <p className="text-gray-600">
-                    {data.details.green_project.justification}
-                  </p>
-                </div>
-
-                {/* Environmental Impact */}
-                <div className="mb-6">
-                  <h3 className="text-md font-semibold text-gray-700 mb-2 flex items-center">
-                    <Wind size={18} className="text-green-500 mr-2" />
-                    Environmental Impact
-                  </h3>
-                  <div className="bg-green-50 p-4 rounded-md border border-green-100">
-                    <p className="text-gray-600">
-                      {data.details.green_project.environmental_impact}
-                    </p>
+            {data.details?.green_project ? (
+              <div className="border border-gray-200 rounded-lg overflow-hidden mb-8">
+                <div className="bg-green-100 p-4">
+                  <div className="flex items-center">
+                    <Leaf size={20} className="text-green-600 mr-2" />
+                    <h2 className="text-lg font-bold text-gray-800">
+                      {data.details.green_project.name}
+                    </h2>
                   </div>
                 </div>
 
-                {/* Jobs Section */}
-                <div>
-                  <button
-                    onClick={() => setShowJobs(!showJobs)}
-                    className="w-full flex items-center justify-between p-3 bg-blue-50 rounded-md border border-gray-200 text-left font-medium text-gray-700 hover:bg-blue-100 transition-colors"
-                  >
-                    <div className="flex items-center">
-                      <Briefcase size={18} className="text-blue-600 mr-2" />
-                      <span>
-                        Short Term Jobs (
-                        {data.details.green_project.short_terms_jobs.length})
-                      </span>
-                    </div>
-                    {showJobs ? (
-                      <ChevronUp size={18} className="text-gray-500" />
-                    ) : (
-                      <ChevronDown size={18} className="text-gray-500" />
-                    )}
-                  </button>
+                <div className="p-5">
+                  {/* Justification */}
+                  <div className="mb-6">
+                    <h3 className="text-md font-semibold text-gray-700 mb-2">
+                      Project Justification
+                    </h3>
+                    <p className="text-gray-600">
+                      {data.details.green_project.justification}
+                    </p>
+                  </div>
 
-                  {showJobs && (
-                    <div className="mt-3 grid grid-cols-1 gap-3">
-                      {data.details.green_project.short_terms_jobs.map((job, index) => (
-                        <div
-                          key={index}
-                          className="p-4 border border-gray-200 rounded-md"
-                        >
-                          <h4 className="text-md font-semibold text-gray-800 mb-1">
-                            {job.title}
-                          </h4>
-                          <p className="text-gray-600">{job.description}</p>
+                  {/* Environmental Impact */}
+                  <div className="mb-6">
+                    <h3 className="text-md font-semibold text-gray-700 mb-2 flex items-center">
+                      <Wind size={18} className="text-green-500 mr-2" />
+                      Environmental Impact
+                    </h3>
+                    <div className="bg-green-50 p-4 rounded-md border border-green-100">
+                      <p className="text-gray-600">
+                        {data.details.green_project.environmental_impact}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Jobs Section */}
+                  {data.details.green_project.short_terms_jobs && (
+                    <div>
+                      <button
+                        onClick={() => setShowJobs(!showJobs)}
+                        className="w-full flex items-center justify-between p-3 bg-blue-50 rounded-md border border-gray-200 text-left font-medium text-gray-700 hover:bg-blue-100 transition-colors"
+                      >
+                        <div className="flex items-center">
+                          <Briefcase size={18} className="text-blue-600 mr-2" />
+                          <span>
+                            Short Term Jobs (
+                            {data.details.green_project.short_terms_jobs.length}
+                            )
+                          </span>
                         </div>
-                      ))}
+                        {showJobs ? (
+                          <ChevronUp size={18} className="text-gray-500" />
+                        ) : (
+                          <ChevronDown size={18} className="text-gray-500" />
+                        )}
+                      </button>
+
+                      {showJobs && (
+                        <div className="mt-3 grid grid-cols-1 gap-3">
+                          {data.details.green_project.short_terms_jobs.map(
+                            (job, index) => (
+                              <div
+                                key={index}
+                                className="p-4 border border-gray-200 rounded-md"
+                              >
+                                <h4 className="text-md font-semibold text-gray-800 mb-1">
+                                  {job.title}
+                                </h4>
+                                <p className="text-gray-600">
+                                  {job.description}
+                                </p>
+                              </div>
+                            )
+                          )}
+                        </div>
+                      )}
                     </div>
                   )}
                 </div>
               </div>
-            </div>
+            ) : (
+              <div className="border border-gray-200 rounded-lg overflow-hidden mb-8 p-8 text-center">
+                <Leaf size={48} className="text-gray-300 mx-auto mb-4" />
+                <p className="text-gray-500 text-lg font-medium">
+                  No Green Project Data Available
+                </p>
+                <p className="text-gray-400 text-sm mt-2">
+                  Green project recommendations are currently not available for
+                  this region.
+                </p>
+              </div>
+            )}
 
             {/* Footer */}
             <div className="flex items-center justify-center border-t border-gray-200 pt-4">
