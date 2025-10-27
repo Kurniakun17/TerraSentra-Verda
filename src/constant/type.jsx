@@ -16,8 +16,7 @@ const investmentTypeOptions = [
   },
 ];
 
-const APIURL = "http://localhost:8000";
-// const APIURL = "https://terra-sentra-be-verda.vercel.app";
+const APIURL = import.meta.env.MODE === "development" ? "http://localhost:8000" : "https://terra-sentra-be-verda.vercel.app";
 
 const citiesList = [
   {
