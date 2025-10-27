@@ -80,6 +80,8 @@ export default function HeaderGreenBond() {
     setErrorMessage("");
   };
 
+  const activeImagesSrc = detailImages[(bondDetail.id % 3) + 1][activeSlide];
+
   return (
     <div className="bg-white rounded-lg shadow-sm p-6 mb-6 relative">
       <h1 className="text-3xl font-bold text-gray-800">{bondDetail?.name}</h1>
@@ -100,7 +102,7 @@ export default function HeaderGreenBond() {
       <div className="mt-6 relative">
         <div className="rounded-lg overflow-hidden">
           <img
-            src={detailImages[bondDetail.id][activeSlide]}
+            src={activeImagesSrc}
             alt={`Project image ${activeSlide + 1}`}
             className="w-full h-96 object-cover"
           />

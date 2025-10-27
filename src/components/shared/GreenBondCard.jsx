@@ -15,7 +15,7 @@ export const GreenBondCard = ({ bond }) => {
       <div className="flow-root bg-white rounded-lg overflow-clip border border-gray-300 pb-8 ">
         <div>
           <img
-            src={images[bond.id-1]}
+            src={images[(bond.id % 3)]}
             alt={bond.title}
             className="object-cover max-h-[200px] w-full"
           />

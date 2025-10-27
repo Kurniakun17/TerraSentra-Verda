@@ -60,12 +60,12 @@ function App() {
         <Route path="/greencredit/:id" element={<GreenCreditDetail />} />
 
         <Route
-          path="/carbon-offset-marketplace"
+          path="/carbon-offset-exchange"
           element={<CarbonCreditHistory />}
         />
 
         <Route
-          path="/greenbond-marketplace"
+          path="/greenbond-investment"
           element={<GreenBondMarketplace />}
         />
 

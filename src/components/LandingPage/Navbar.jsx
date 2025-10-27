@@ -42,16 +42,16 @@ export default function Navbar() {
                     Potential Region
                   </a>
                   <a
-                    href="/greenbond-marketplace"
+                    href="/greenbond-investment"
                     className="hover:bg-gray-100 text-sm"
                   >
-                    Green Bond Marketplace
+                    Green Bond Investment
                   </a>
                   <a
-                    href="/carbon-offset-marketplace"
+                    href="/carbon-offset-exchange"
                     className=" hover:bg-gray-100 text-sm"
                   >
-                    Carbon Offset Marketplace
+                    Carbon Offset Exchange
                   </a>
                 </div>
               </div>
