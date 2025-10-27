@@ -4,14 +4,13 @@ import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
 import Navbar from "../components/LandingPage/Navbar";
 import "leaflet/dist/leaflet.css";
 import {
-  
   formatTopoJSON,
-  
   getScoreColor,
   getScoreRating,
 } from "../utils/functions";
 import { APIURL, citiesList } from "../constant/type";
 import RegionTabs from "../components/PotentialRegion/RegionTabs";
+import { Plus } from "lucide-react";
 
 const RegionDetail = () => {
   let { regionName } = useParams();
@@ -24,7 +23,9 @@ const RegionDetail = () => {
 
   const fetchData = async () => {
     setLoading(true);
-    await fetch(`${APIURL}/get-city-detail?provinceName=${regionName.toLowerCase()}`)
+    await fetch(
+      `${APIURL}/get-city-detail?provinceName=${regionName.toLowerCase()}`
+    )
       .then((response) => response.json())
       .then((data) => {
         setData(data[0]);
@@ -193,19 +194,59 @@ const RegionDetail = () => {
 
   const center = findCentroid();
 
-  console.log(geoJsonData)
+  console.log(geoJsonData);
+
+  const handleCreateBond = () => {
+    // Prepare the data to save to localStorage
+    const locationData = {
+      name: "",
+      description: "",
+      photos: [],
+      carbon_absorbed: "",
+      current_carbon_price: "",
+      carbon_per_million: "",
+      per_unit_price: "",
+      location: `${
+        data.province.charAt(0).toUpperCase() + data.province.slice(1)
+      }`,
+      roi: "",
+      fund_required: "",
+      fund_raised: "0",
+      duration: "",
+      province: data.province.toLowerCase(),
+      starting_date: new Date().getFullYear(),
+    };
+
+    // Save to localStorage (this will replace any existing draft)
+    localStorage.setItem("createGreenBondDraft", JSON.stringify(locationData));
+
+    // Navigate to create green bond page
+    navigate("/create-greenbond", {
+      state: {
+        location: locationData.location,
+        province: locationData.province,
+      },
+    });
+  };
 
   return (
     <div className="min-h-screen bg-gray-100">
       <Navbar />
       <div className="w-full h-16"></div>
       <div className="max-w-7xl mx-auto px-3 py-4">
-        <div className="flex items-center mb-4">
+        <div className="flex items-center justify-between mb-4">
           <button
             onClick={() => navigate("/potential-regions")}
             className="text-tertiary hover:underline mr-3"
           >
             &larr; Back to Potential Region
+          </button>
+          <button
+            onClick={handleCreateBond}
+            className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors shadow-md"
+          >
+            <Plus className="w-5 h-5" />
+            Create Bond
           </button>
         </div>
         <h1 className="text-2xl font-bold text-tertiary pb-4">

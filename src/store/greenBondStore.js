@@ -6,7 +6,7 @@ const useGreenBondStore = create((set) => ({
   bonds: [],
   bondDetail: {},
   insights: "",
-  loading: true,
+  loading: false,
   error: null,
 
   fetchBonds: async ({ id }) => {
@@ -105,6 +105,37 @@ Gunakan gaya bahasa profesional dan meyakinkan, serta akhiri dengan kesimpulan a
     set((state) => ({
       bonds: state.bonds.filter((bond) => bond.id !== id),
     })),
+
+  createBond: async (bondData) => {
+    try {
+      set({ loading: true, error: null });
+
+      const response = await fetch(`${APIURL}/green-bond`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(bondData),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || "Failed to create green bond");
+      }
+
+      const data = await response.json();
+
+      set((state) => ({
+        bonds: [...state.bonds, data],
+        loading: false,
+      }));
+
+      return data;
+    } catch (error) {
+      set({ error: error.message, loading: false });
+      throw error;
+    }
+  },
 
   resetStore: () => set({ bonds: [], loading: false, error: null }),
 }));

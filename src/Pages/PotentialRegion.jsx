@@ -5,7 +5,7 @@ import Navbar from "../components/LandingPage/Navbar";
 import "leaflet/dist/leaflet.css";
 import { formatTopoJSON, getScoreColor, toTitleCase } from "../utils/functions";
 import usePotentialRegion from "../store/potentialRegionStore";
-import { ChevronRight, Loader } from "lucide-react";
+import { ChevronRight, Loader, Plus } from "lucide-react";
 
 const PotentialRegion = ({ geoJsonData }) => {
   const navigate = useNavigate();
@@ -69,16 +69,16 @@ const PotentialRegion = ({ geoJsonData }) => {
 
   const onEachFeature = (feature, layer) => {
     const provinceName = feature.properties.provinsi;
-    
+
     const formattedProvinceName = provinceName.toLowerCase().replace(" ", "-");
     const fileName = formattedProvinceName + "-simplified-topo.json";
-    
+
     let regionData = provinces.find(
       (region) => region.province.toLowerCase() === provinceName.toLowerCase()
     );
-    
+
     const score = regionData?.ai_investment_score || 50;
-    console.log(score)
+    console.log(score);
     layer.on({
       mouseover: () => {
         layer.setStyle({
@@ -211,14 +211,36 @@ const PotentialRegion = ({ geoJsonData }) => {
 
   const topRegions = getTopRegions();
 
+  const handleCreateBond = () => {
+    if (isClickedDetail.state && isClickedDetail.province) {
+      // Navigate with pre-filled location
+      navigate("/create-greenbond", {
+        state: {
+          location: `${isClickedDetail.province}`,
+          province: isClickedDetail.province.toLowerCase(),
+        },
+      });
+    } else {
+      // Navigate without pre-filled location
+      navigate("/create-greenbond");
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gray-100">
       <Navbar />
       <div className="w-full h-16"></div>
       <div className="max-w-8xl mx-auto px-3 py-4">
-        <h1 className="text-2xl font-bold text-tertiary mb-4">
-          Potential Region
-        </h1>
+        <div className="flex justify-between items-center mb-4">
+          <h1 className="text-2xl font-bold text-tertiary">Potential Region</h1>
+          <button
+            onClick={handleCreateBond}
+            className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors shadow-md"
+          >
+            <Plus className="w-5 h-5" />
+            Create Bond
+          </button>
+        </div>
         <div className="flex gap-2">
           <div className="bg-white w-full p-4 border border-gray-300/80 rounded-lg mb-4">
             <h2 className="text-lg font-medium text-tertiary mb-3">

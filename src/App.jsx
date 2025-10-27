@@ -9,6 +9,7 @@ import CarbonCreditHistory from "./Pages/CarbonCreditHistory";
 import GreenBondMarketplace from "./Pages/GreenBondMarketplace";
 import GreenCreditMarketplace from "./Pages/GreenCreditMarketplace";
 import GreenCreditDetail from "./Pages/GreenCreditDetail";
+import CreateGreenBond from "./Pages/CreateGreenBond";
 
 import { formatTopoJSON } from "./utils/functions";
 
@@ -73,6 +74,8 @@ function App() {
           path="/greencredit-marketplace"
           element={<GreenCreditMarketplace />}
         />
+
+        <Route path="/create-greenbond" element={<CreateGreenBond />} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>
