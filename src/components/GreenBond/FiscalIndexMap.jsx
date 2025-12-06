@@ -32,6 +32,7 @@ export default function FiscalIndexMap() {
   const currentIndex = fiscalIndexData[selectedYear];
 
   const cityName = (bondDetail?.city || bondDetail?.location || "").toLowerCase();
+  
 
   const findProvinceFile = () => {
     let fileName = null;

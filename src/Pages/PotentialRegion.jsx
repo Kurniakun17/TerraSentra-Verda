@@ -302,7 +302,7 @@ const PotentialRegion = ({ geoJsonData }) => {
             >
               {isClickedDetail.state
                 ? isClickedDetail.province
-                : "Pilih Provinsi"}
+                : "Pick a Province"}
             </span>
 
             <span className="text-teal-700"></span>
