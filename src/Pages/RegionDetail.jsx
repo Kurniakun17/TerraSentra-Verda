@@ -128,9 +128,12 @@ const RegionDetail = () => {
       });
   }, [regionName, location.search]);
 
+  const investmentScore =
+    data?.potential_score ?? data?.ai_investment_score ?? 0;
+
   const style = () => {
     return {
-      fillColor: getScoreColor(data.ai_investment_score),
+      fillColor: getScoreColor(investmentScore),
       weight: 4,
       opacity: 1,
       color: "#559795",
@@ -187,9 +190,9 @@ const RegionDetail = () => {
   };
 
   const onEachFeature = (feature, layer) => {
-    const score = data.ai_investment_score;
-
-    layer.bindTooltip(`${data.province}: ${score}`, { permanent: false });
+    layer.bindTooltip(`${data.province}: ${investmentScore}`, {
+      permanent: false,
+    });
   };
 
   const center = findCentroid();
@@ -254,16 +257,14 @@ const RegionDetail = () => {
           Investment Profile
           <span
             className={`ml-3 px-3 py-1 text-sm ${
-              data.ai_investment_score > 35
+              investmentScore > 35
                 ? "bg-green-100 text-green-800"
-                : data.ai_investment_score >= 30 &&
-                  data.ai_investment_score <= 35
+                : investmentScore >= 30 && investmentScore <= 35
                 ? "bg-yellow-100 text-yellow-800"
                 : "bg-red-100 text-red-800"
             } rounded-full`}
           >
-            Score: {data.ai_investment_score} (
-            {getScoreRating(data.ai_investment_score)})
+            Score: {investmentScore} ({getScoreRating(investmentScore)})
           </span>
         </h1>
 

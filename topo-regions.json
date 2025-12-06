@@ -1,0 +1,3116 @@
+[
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Barat",
+    "regionId": "11-07"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Barat Daya",
+    "regionId": "11-12"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Besar",
+    "regionId": "11-08"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Jaya",
+    "regionId": "11-16"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Selatan",
+    "regionId": "11-03"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Singkil",
+    "regionId": "11-02"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Singkil",
+    "regionId": "11-02"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Singkil",
+    "regionId": "11-02"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Singkil",
+    "regionId": "11-02"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Tamiang",
+    "regionId": "11-14"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Tengah",
+    "regionId": "11-06"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Tenggara",
+    "regionId": "11-04"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Timur",
+    "regionId": "11-05"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Aceh Utara",
+    "regionId": "11-11"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Banda Aceh",
+    "regionId": "11-71"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Bener Meriah",
+    "regionId": "11-17"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Bireuen",
+    "regionId": "11-10"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Gayo Lues",
+    "regionId": "11-13"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Langsa",
+    "regionId": "11-73"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Lhokseumawe",
+    "regionId": "11-74"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Nagan Raya",
+    "regionId": "11-15"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Pidie",
+    "regionId": "11-09"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Pidie Jaya",
+    "regionId": "11-18"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Sabang",
+    "regionId": "11-72"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Simeulue",
+    "regionId": "11-01"
+  },
+  {
+    "province": "Aceh",
+    "provinceFile": "aceh-simplified-topo.json",
+    "region": "Subulussalam",
+    "regionId": "11-75"
+  },
+  {
+    "province": "Bali",
+    "provinceFile": "bali-simplified-topo.json",
+    "region": "Badung",
+    "regionId": "51-03"
+  },
+  {
+    "province": "Bali",
+    "provinceFile": "bali-simplified-topo.json",
+    "region": "Bangli",
+    "regionId": "51-06"
+  },
+  {
+    "province": "Bali",
+    "provinceFile": "bali-simplified-topo.json",
+    "region": "Buleleng",
+    "regionId": "51-08"
+  },
+  {
+    "province": "Bali",
+    "provinceFile": "bali-simplified-topo.json",
+    "region": "Denpasar",
+    "regionId": "51-71"
+  },
+  {
+    "province": "Bali",
+    "provinceFile": "bali-simplified-topo.json",
+    "region": "Gianyar",
+    "regionId": "51-04"
+  },
+  {
+    "province": "Bali",
+    "provinceFile": "bali-simplified-topo.json",
+    "region": "Jembrana",
+    "regionId": "51-01"
+  },
+  {
+    "province": "Bali",
+    "provinceFile": "bali-simplified-topo.json",
+    "region": "Karang Asem",
+    "regionId": "51-07"
+  },
+  {
+    "province": "Bali",
+    "provinceFile": "bali-simplified-topo.json",
+    "region": "Klungkung",
+    "regionId": "51-05"
+  },
+  {
+    "province": "Bali",
+    "provinceFile": "bali-simplified-topo.json",
+    "region": "Tabanan",
+    "regionId": "51-02"
+  },
+  {
+    "province": "Banten",
+    "provinceFile": "banten-simplified-topo.json",
+    "region": "Cilegon",
+    "regionId": "36-72"
+  },
+  {
+    "province": "Banten",
+    "provinceFile": "banten-simplified-topo.json",
+    "region": "Lebak",
+    "regionId": "36-02"
+  },
+  {
+    "province": "Banten",
+    "provinceFile": "banten-simplified-topo.json",
+    "region": "Pandeglang",
+    "regionId": "36-01"
+  },
+  {
+    "province": "Banten",
+    "provinceFile": "banten-simplified-topo.json",
+    "region": "Serang",
+    "regionId": "36-04"
+  },
+  {
+    "province": "Banten",
+    "provinceFile": "banten-simplified-topo.json",
+    "region": "Serang",
+    "regionId": "36-73"
+  },
+  {
+    "province": "Banten",
+    "provinceFile": "banten-simplified-topo.json",
+    "region": "Tangerang",
+    "regionId": "36-03"
+  },
+  {
+    "province": "Banten",
+    "provinceFile": "banten-simplified-topo.json",
+    "region": "Tangerang",
+    "regionId": "36-71"
+  },
+  {
+    "province": "Banten",
+    "provinceFile": "banten-simplified-topo.json",
+    "region": "Tangerang Selatan",
+    "regionId": "36-74"
+  },
+  {
+    "province": "Bengkulu",
+    "provinceFile": "bengkulu-simplified-topo.json",
+    "region": "Bengkulu",
+    "regionId": "17-71"
+  },
+  {
+    "province": "Bengkulu",
+    "provinceFile": "bengkulu-simplified-topo.json",
+    "region": "Bengkulu Selatan",
+    "regionId": "17-01"
+  },
+  {
+    "province": "Bengkulu",
+    "provinceFile": "bengkulu-simplified-topo.json",
+    "region": "Bengkulu Tengah",
+    "regionId": "17-09"
+  },
+  {
+    "province": "Bengkulu",
+    "provinceFile": "bengkulu-simplified-topo.json",
+    "region": "Bengkulu Utara",
+    "regionId": "17-03"
+  },
+  {
+    "province": "Bengkulu",
+    "provinceFile": "bengkulu-simplified-topo.json",
+    "region": "Kaur",
+    "regionId": "17-04"
+  },
+  {
+    "province": "Bengkulu",
+    "provinceFile": "bengkulu-simplified-topo.json",
+    "region": "Kepahiang",
+    "regionId": "17-08"
+  },
+  {
+    "province": "Bengkulu",
+    "provinceFile": "bengkulu-simplified-topo.json",
+    "region": "Lebong",
+    "regionId": "17-07"
+  },
+  {
+    "province": "Bengkulu",
+    "provinceFile": "bengkulu-simplified-topo.json",
+    "region": "Mukomuko",
+    "regionId": "17-06"
+  },
+  {
+    "province": "Bengkulu",
+    "provinceFile": "bengkulu-simplified-topo.json",
+    "region": "Rejang Lebong",
+    "regionId": "17-02"
+  },
+  {
+    "province": "Bengkulu",
+    "provinceFile": "bengkulu-simplified-topo.json",
+    "region": "Seluma",
+    "regionId": "17-05"
+  },
+  {
+    "province": "Gorontalo",
+    "provinceFile": "gorontalo-simplified-topo.json",
+    "region": "Boalemo",
+    "regionId": "75-01"
+  },
+  {
+    "province": "Gorontalo",
+    "provinceFile": "gorontalo-simplified-topo.json",
+    "region": "Bone Bolango",
+    "regionId": "75-04"
+  },
+  {
+    "province": "Gorontalo",
+    "provinceFile": "gorontalo-simplified-topo.json",
+    "region": "Gorontalo",
+    "regionId": "75-02"
+  },
+  {
+    "province": "Gorontalo",
+    "provinceFile": "gorontalo-simplified-topo.json",
+    "region": "Gorontalo",
+    "regionId": "75-71"
+  },
+  {
+    "province": "Gorontalo",
+    "provinceFile": "gorontalo-simplified-topo.json",
+    "region": "Gorontalo Utara",
+    "regionId": "75-05"
+  },
+  {
+    "province": "Gorontalo",
+    "provinceFile": "gorontalo-simplified-topo.json",
+    "region": "Pohuwato",
+    "regionId": "75-03"
+  },
+  {
+    "province": "Jakarta",
+    "provinceFile": "jakarta-simplified-topo.json",
+    "region": "Jakarta Barat",
+    "regionId": "31-74"
+  },
+  {
+    "province": "Jakarta",
+    "provinceFile": "jakarta-simplified-topo.json",
+    "region": "Jakarta Pusat",
+    "regionId": "31-73"
+  },
+  {
+    "province": "Jakarta",
+    "provinceFile": "jakarta-simplified-topo.json",
+    "region": "Jakarta Selatan",
+    "regionId": "31-71"
+  },
+  {
+    "province": "Jakarta",
+    "provinceFile": "jakarta-simplified-topo.json",
+    "region": "Jakarta Timur",
+    "regionId": "31-72"
+  },
+  {
+    "province": "Jakarta",
+    "provinceFile": "jakarta-simplified-topo.json",
+    "region": "Jakarta Utara",
+    "regionId": "31-75"
+  },
+  {
+    "province": "Jambi",
+    "provinceFile": "jambi-simplified-topo.json",
+    "region": "Batang Hari",
+    "regionId": "15-04"
+  },
+  {
+    "province": "Jambi",
+    "provinceFile": "jambi-simplified-topo.json",
+    "region": "Bungo",
+    "regionId": "15-09"
+  },
+  {
+    "province": "Jambi",
+    "provinceFile": "jambi-simplified-topo.json",
+    "region": "Jambi",
+    "regionId": "15-71"
+  },
+  {
+    "province": "Jambi",
+    "provinceFile": "jambi-simplified-topo.json",
+    "region": "Kerinci",
+    "regionId": "15-01"
+  },
+  {
+    "province": "Jambi",
+    "provinceFile": "jambi-simplified-topo.json",
+    "region": "Merangin",
+    "regionId": "15-02"
+  },
+  {
+    "province": "Jambi",
+    "provinceFile": "jambi-simplified-topo.json",
+    "region": "Muaro Jambi",
+    "regionId": "15-05"
+  },
+  {
+    "province": "Jambi",
+    "provinceFile": "jambi-simplified-topo.json",
+    "region": "Sarolangun",
+    "regionId": "15-03"
+  },
+  {
+    "province": "Jambi",
+    "provinceFile": "jambi-simplified-topo.json",
+    "region": "Sungai Penuh",
+    "regionId": "15-72"
+  },
+  {
+    "province": "Jambi",
+    "provinceFile": "jambi-simplified-topo.json",
+    "region": "Tanjung Jabung Barat",
+    "regionId": "15-07"
+  },
+  {
+    "province": "Jambi",
+    "provinceFile": "jambi-simplified-topo.json",
+    "region": "Tanjung Jabung Timur",
+    "regionId": "15-06"
+  },
+  {
+    "province": "Jambi",
+    "provinceFile": "jambi-simplified-topo.json",
+    "region": "Tebo",
+    "regionId": "15-08"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Bandung",
+    "regionId": "32-04"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Bandung",
+    "regionId": "32-73"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Bandung Barat",
+    "regionId": "32-17"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Banjar",
+    "regionId": "32-79"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Bekasi",
+    "regionId": "32-16"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Bekasi",
+    "regionId": "32-75"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Bogor",
+    "regionId": "32-01"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Bogor",
+    "regionId": "32-71"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Ciamis",
+    "regionId": "32-07"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Cianjur",
+    "regionId": "32-03"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Cimahi",
+    "regionId": "32-77"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Cirebon",
+    "regionId": "32-09"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Cirebon",
+    "regionId": "32-74"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Depok",
+    "regionId": "32-76"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Garut",
+    "regionId": "32-05"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Indramayu",
+    "regionId": "32-12"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Karawang",
+    "regionId": "32-15"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Kuningan",
+    "regionId": "32-08"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Majalengka",
+    "regionId": "32-10"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Pangandaran",
+    "regionId": "32-18"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Purwakarta",
+    "regionId": "32-14"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Subang",
+    "regionId": "32-13"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Sukabumi",
+    "regionId": "32-02"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Sukabumi",
+    "regionId": "32-72"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Sumedang",
+    "regionId": "32-11"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Tasikmalaya",
+    "regionId": "32-06"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Tasikmalaya",
+    "regionId": "32-78"
+  },
+  {
+    "province": "Jawa Barat",
+    "provinceFile": "jawa-barat-simplified-topo.json",
+    "region": "Waduk Cira",
+    "regionId": "32-88"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Banjarnegara",
+    "regionId": "33-04"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Banyumas",
+    "regionId": "33-02"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Batang",
+    "regionId": "33-25"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Blora",
+    "regionId": "33-16"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Boyolali",
+    "regionId": "33-09"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Brebes",
+    "regionId": "33-29"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Cilacap",
+    "regionId": "33-01"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Demak",
+    "regionId": "33-21"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Grobogan",
+    "regionId": "33-15"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Jepara",
+    "regionId": "33-20"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Karanganyar",
+    "regionId": "33-13"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Kebumen",
+    "regionId": "33-05"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Kendal",
+    "regionId": "33-24"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Klaten",
+    "regionId": "33-10"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Kudus",
+    "regionId": "33-19"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Magelang",
+    "regionId": "33-08"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Magelang",
+    "regionId": "33-71"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Pati",
+    "regionId": "33-18"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Pekalongan",
+    "regionId": "33-26"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Pekalongan",
+    "regionId": "33-75"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Pemalang",
+    "regionId": "33-27"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Purbalingga",
+    "regionId": "33-03"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Purworejo",
+    "regionId": "33-06"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Rembang",
+    "regionId": "33-17"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Salatiga",
+    "regionId": "33-73"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Semarang",
+    "regionId": "33-22"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Semarang",
+    "regionId": "33-74"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Sragen",
+    "regionId": "33-14"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Sukoharjo",
+    "regionId": "33-11"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Surakarta",
+    "regionId": "33-72"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Tegal",
+    "regionId": "33-28"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Tegal",
+    "regionId": "33-76"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Temanggung",
+    "regionId": "33-23"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Waduk Kedu",
+    "regionId": "33-88"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Wonogiri",
+    "regionId": "33-12"
+  },
+  {
+    "province": "Jawa Tengah",
+    "provinceFile": "jawa-tengah-simplified-topo.json",
+    "region": "Wonosobo",
+    "regionId": "33-07"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Bangkalan",
+    "regionId": "35-26"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Banyuwangi",
+    "regionId": "35-10"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Batu",
+    "regionId": "35-79"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Blitar",
+    "regionId": "35-05"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Blitar",
+    "regionId": "35-72"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Bojonegoro",
+    "regionId": "35-22"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Bondowoso",
+    "regionId": "35-11"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Gresik",
+    "regionId": "35-25"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Jember",
+    "regionId": "35-09"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Jombang",
+    "regionId": "35-17"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Kediri",
+    "regionId": "35-06"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Kediri",
+    "regionId": "35-71"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Lamongan",
+    "regionId": "35-24"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Lumajang",
+    "regionId": "35-08"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Madiun",
+    "regionId": "35-19"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Madiun",
+    "regionId": "35-77"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Magetan",
+    "regionId": "35-20"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Malang",
+    "regionId": "35-07"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Malang",
+    "regionId": "35-73"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Mojokerto",
+    "regionId": "35-16"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Mojokerto",
+    "regionId": "35-76"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Nganjuk",
+    "regionId": "35-18"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Ngawi",
+    "regionId": "35-21"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Pacitan",
+    "regionId": "35-01"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Pamekasan",
+    "regionId": "35-28"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Pasuruan",
+    "regionId": "35-14"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Pasuruan",
+    "regionId": "35-75"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Ponorogo",
+    "regionId": "35-02"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Probolinggo",
+    "regionId": "35-13"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Probolinggo",
+    "regionId": "35-74"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Sampang",
+    "regionId": "35-27"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Sidoarjo",
+    "regionId": "35-15"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Situbondo",
+    "regionId": "35-12"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Sumenep",
+    "regionId": "35-29"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Surabaya",
+    "regionId": "35-78"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Trenggalek",
+    "regionId": "35-03"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Tuban",
+    "regionId": "35-23"
+  },
+  {
+    "province": "Jawa Timur",
+    "provinceFile": "jawa-timur-simplified-topo.json",
+    "region": "Tulungagung",
+    "regionId": "35-04"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Bengkayang",
+    "regionId": "61-02"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Kapuas Hulu",
+    "regionId": "61-08"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Kayong Utara",
+    "regionId": "61-11"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Ketapang",
+    "regionId": "61-06"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Kubu Raya",
+    "regionId": "61-12"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Landak",
+    "regionId": "61-03"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Melawi",
+    "regionId": "61-10"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Mempawah",
+    "regionId": "61-04"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Mempawah",
+    "regionId": "61-71"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Sambas",
+    "regionId": "61-01"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Sanggau",
+    "regionId": "61-05"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Sekadau",
+    "regionId": "61-09"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Singkawang",
+    "regionId": "61-72"
+  },
+  {
+    "province": "Kalimantan Barat",
+    "provinceFile": "kalimantan-barat-simplified-topo.json",
+    "region": "Sintang",
+    "regionId": "61-07"
+  },
+  {
+    "province": "Kalimantan Selatan",
+    "provinceFile": "kalimantan-selatan-simplified-topo.json",
+    "region": "Balangan",
+    "regionId": "63-11"
+  },
+  {
+    "province": "Kalimantan Selatan",
+    "provinceFile": "kalimantan-selatan-simplified-topo.json",
+    "region": "Banjar",
+    "regionId": "63-03"
+  },
+  {
+    "province": "Kalimantan Selatan",
+    "provinceFile": "kalimantan-selatan-simplified-topo.json",
+    "region": "Banjar Baru",
+    "regionId": "63-72"
+  },
+  {
+    "province": "Kalimantan Selatan",
+    "provinceFile": "kalimantan-selatan-simplified-topo.json",
+    "region": "Banjarmasin",
+    "regionId": "63-71"
+  },
+  {
+    "province": "Kalimantan Selatan",
+    "provinceFile": "kalimantan-selatan-simplified-topo.json",
+    "region": "Barito Kuala",
+    "regionId": "63-04"
+  },
+  {
+    "province": "Kalimantan Selatan",
+    "provinceFile": "kalimantan-selatan-simplified-topo.json",
+    "region": "Hulu Sungai Selatan",
+    "regionId": "63-06"
+  },
+  {
+    "province": "Kalimantan Selatan",
+    "provinceFile": "kalimantan-selatan-simplified-topo.json",
+    "region": "Hulu Sungai Tengah",
+    "regionId": "63-07"
+  },
+  {
+    "province": "Kalimantan Selatan",
+    "provinceFile": "kalimantan-selatan-simplified-topo.json",
+    "region": "Hulu Sungai Utara",
+    "regionId": "63-08"
+  },
+  {
+    "province": "Kalimantan Selatan",
+    "provinceFile": "kalimantan-selatan-simplified-topo.json",
+    "region": "Kota Baru",
+    "regionId": "63-02"
+  },
+  {
+    "province": "Kalimantan Selatan",
+    "provinceFile": "kalimantan-selatan-simplified-topo.json",
+    "region": "Tabalong",
+    "regionId": "63-09"
+  },
+  {
+    "province": "Kalimantan Selatan",
+    "provinceFile": "kalimantan-selatan-simplified-topo.json",
+    "region": "Tanah Bumbu",
+    "regionId": "63-10"
+  },
+  {
+    "province": "Kalimantan Selatan",
+    "provinceFile": "kalimantan-selatan-simplified-topo.json",
+    "region": "Tanah Laut",
+    "regionId": "63-01"
+  },
+  {
+    "province": "Kalimantan Selatan",
+    "provinceFile": "kalimantan-selatan-simplified-topo.json",
+    "region": "Tapin",
+    "regionId": "63-05"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Barito Selatan",
+    "regionId": "62-04"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Barito Timur",
+    "regionId": "62-12"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Barito Utara",
+    "regionId": "62-05"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Gunung Mas",
+    "regionId": "62-11"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Kapuas",
+    "regionId": "62-03"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Katingan",
+    "regionId": "62-09"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Kotawaringin Barat",
+    "regionId": "62-01"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Kotawaringin Timur",
+    "regionId": "62-02"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Lamandau",
+    "regionId": "62-07"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Murung Raya",
+    "regionId": "62-13"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Palangka Raya",
+    "regionId": "62-71"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Pulang Pisau",
+    "regionId": "62-10"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Seruyan",
+    "regionId": "62-08"
+  },
+  {
+    "province": "Kalimantan Tengah",
+    "provinceFile": "kalimantan-tengah-simplified-topo.json",
+    "region": "Sukamara",
+    "regionId": "62-06"
+  },
+  {
+    "province": "Kalimantan Timur",
+    "provinceFile": "kalimantan-timur-simplified-topo.json",
+    "region": "Balikpapan",
+    "regionId": "64-71"
+  },
+  {
+    "province": "Kalimantan Timur",
+    "provinceFile": "kalimantan-timur-simplified-topo.json",
+    "region": "Berau",
+    "regionId": "64-05"
+  },
+  {
+    "province": "Kalimantan Timur",
+    "provinceFile": "kalimantan-timur-simplified-topo.json",
+    "region": "Bontang",
+    "regionId": "64-74"
+  },
+  {
+    "province": "Kalimantan Timur",
+    "provinceFile": "kalimantan-timur-simplified-topo.json",
+    "region": "Kutai Barat",
+    "regionId": "64-02"
+  },
+  {
+    "province": "Kalimantan Timur",
+    "provinceFile": "kalimantan-timur-simplified-topo.json",
+    "region": "Kutai Kartanegara",
+    "regionId": "64-03"
+  },
+  {
+    "province": "Kalimantan Timur",
+    "provinceFile": "kalimantan-timur-simplified-topo.json",
+    "region": "Kutai Timur",
+    "regionId": "64-04"
+  },
+  {
+    "province": "Kalimantan Timur",
+    "provinceFile": "kalimantan-timur-simplified-topo.json",
+    "region": "Mahakam Ulu",
+    "regionId": "64-11"
+  },
+  {
+    "province": "Kalimantan Timur",
+    "provinceFile": "kalimantan-timur-simplified-topo.json",
+    "region": "Paser",
+    "regionId": "64-01"
+  },
+  {
+    "province": "Kalimantan Timur",
+    "provinceFile": "kalimantan-timur-simplified-topo.json",
+    "region": "Penajam Paser Utara",
+    "regionId": "64-09"
+  },
+  {
+    "province": "Kalimantan Timur",
+    "provinceFile": "kalimantan-timur-simplified-topo.json",
+    "region": "Samarinda",
+    "regionId": "64-72"
+  },
+  {
+    "province": "Kalimantan Utara",
+    "provinceFile": "kalimantan-utara-simplified-topo.json",
+    "region": "Bulungan",
+    "regionId": "65-02"
+  },
+  {
+    "province": "Kalimantan Utara",
+    "provinceFile": "kalimantan-utara-simplified-topo.json",
+    "region": "Malinau",
+    "regionId": "65-01"
+  },
+  {
+    "province": "Kalimantan Utara",
+    "provinceFile": "kalimantan-utara-simplified-topo.json",
+    "region": "Nunukan",
+    "regionId": "65-04"
+  },
+  {
+    "province": "Kalimantan Utara",
+    "provinceFile": "kalimantan-utara-simplified-topo.json",
+    "region": "Tana Tidung",
+    "regionId": "65-03"
+  },
+  {
+    "province": "Kalimantan Utara",
+    "provinceFile": "kalimantan-utara-simplified-topo.json",
+    "region": "Tarakan",
+    "regionId": "65-71"
+  },
+  {
+    "province": "Kepulauan Bangka Belitung",
+    "provinceFile": "kepulauan-bangka-belitung-simplified-topo.json",
+    "region": "Bangka",
+    "regionId": "19-01"
+  },
+  {
+    "province": "Kepulauan Bangka Belitung",
+    "provinceFile": "kepulauan-bangka-belitung-simplified-topo.json",
+    "region": "Bangka Barat",
+    "regionId": "19-03"
+  },
+  {
+    "province": "Kepulauan Bangka Belitung",
+    "provinceFile": "kepulauan-bangka-belitung-simplified-topo.json",
+    "region": "Bangka Selatan",
+    "regionId": "19-05"
+  },
+  {
+    "province": "Kepulauan Bangka Belitung",
+    "provinceFile": "kepulauan-bangka-belitung-simplified-topo.json",
+    "region": "Bangka Tengah",
+    "regionId": "19-04"
+  },
+  {
+    "province": "Kepulauan Bangka Belitung",
+    "provinceFile": "kepulauan-bangka-belitung-simplified-topo.json",
+    "region": "Belitung",
+    "regionId": "19-02"
+  },
+  {
+    "province": "Kepulauan Bangka Belitung",
+    "provinceFile": "kepulauan-bangka-belitung-simplified-topo.json",
+    "region": "Belitung Timur",
+    "regionId": "19-06"
+  },
+  {
+    "province": "Kepulauan Bangka Belitung",
+    "provinceFile": "kepulauan-bangka-belitung-simplified-topo.json",
+    "region": "Pangkalpinang",
+    "regionId": "19-71"
+  },
+  {
+    "province": "Kepulauan Riau",
+    "provinceFile": "kepulauan-riau-simplified-topo.json",
+    "region": "Batam",
+    "regionId": "21-71"
+  },
+  {
+    "province": "Kepulauan Riau",
+    "provinceFile": "kepulauan-riau-simplified-topo.json",
+    "region": "Bintan",
+    "regionId": "21-02"
+  },
+  {
+    "province": "Kepulauan Riau",
+    "provinceFile": "kepulauan-riau-simplified-topo.json",
+    "region": "Karimun",
+    "regionId": "21-01"
+  },
+  {
+    "province": "Kepulauan Riau",
+    "provinceFile": "kepulauan-riau-simplified-topo.json",
+    "region": "Kepulauan Anambas",
+    "regionId": "21-05"
+  },
+  {
+    "province": "Kepulauan Riau",
+    "provinceFile": "kepulauan-riau-simplified-topo.json",
+    "region": "Lingga",
+    "regionId": "21-04"
+  },
+  {
+    "province": "Kepulauan Riau",
+    "provinceFile": "kepulauan-riau-simplified-topo.json",
+    "region": "Natuna",
+    "regionId": "21-03"
+  },
+  {
+    "province": "Kepulauan Riau",
+    "provinceFile": "kepulauan-riau-simplified-topo.json",
+    "region": "Tanjung Pinang",
+    "regionId": "21-72"
+  },
+  {
+    "province": "Kepulauan Seribu",
+    "provinceFile": "kepulauan-seribu-simplified-topo.json",
+    "region": "Kepulauan Seribu",
+    "regionId": "31-01"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Bandar Lampung",
+    "regionId": "18-71"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Lampung Barat",
+    "regionId": "18-01"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Lampung Selatan",
+    "regionId": "18-03"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Lampung Tengah",
+    "regionId": "18-05"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Lampung Timur",
+    "regionId": "18-04"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Lampung Utara",
+    "regionId": "18-06"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Mesuji",
+    "regionId": "18-11"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Metro",
+    "regionId": "18-72"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Pesawaran",
+    "regionId": "18-09"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Pesisir Barat",
+    "regionId": "18-13"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Pringsewu",
+    "regionId": "18-10"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Tanggamus",
+    "regionId": "18-02"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Tulang Bawang",
+    "regionId": "18-08"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Tulang Bawang Barat",
+    "regionId": "18-12"
+  },
+  {
+    "province": "Lampung",
+    "provinceFile": "lampung-simplified-topo.json",
+    "region": "Way Kanan",
+    "regionId": "18-07"
+  },
+  {
+    "province": "Maluku",
+    "provinceFile": "maluku-simplified-topo.json",
+    "region": "Ambon",
+    "regionId": "81-71"
+  },
+  {
+    "province": "Maluku",
+    "provinceFile": "maluku-simplified-topo.json",
+    "region": "Buru",
+    "regionId": "81-04"
+  },
+  {
+    "province": "Maluku",
+    "provinceFile": "maluku-simplified-topo.json",
+    "region": "Buru Selatan",
+    "regionId": "81-09"
+  },
+  {
+    "province": "Maluku",
+    "provinceFile": "maluku-simplified-topo.json",
+    "region": "Kepulauan Aru",
+    "regionId": "81-05"
+  },
+  {
+    "province": "Maluku",
+    "provinceFile": "maluku-simplified-topo.json",
+    "region": "Maluku Barat Daya",
+    "regionId": "81-08"
+  },
+  {
+    "province": "Maluku",
+    "provinceFile": "maluku-simplified-topo.json",
+    "region": "Maluku Tengah",
+    "regionId": "81-03"
+  },
+  {
+    "province": "Maluku",
+    "provinceFile": "maluku-simplified-topo.json",
+    "region": "Maluku Tenggara",
+    "regionId": "81-02"
+  },
+  {
+    "province": "Maluku",
+    "provinceFile": "maluku-simplified-topo.json",
+    "region": "Maluku Tenggara Barat",
+    "regionId": "81-01"
+  },
+  {
+    "province": "Maluku",
+    "provinceFile": "maluku-simplified-topo.json",
+    "region": "Seram Bagian Barat",
+    "regionId": "81-06"
+  },
+  {
+    "province": "Maluku",
+    "provinceFile": "maluku-simplified-topo.json",
+    "region": "Seram Bagian Timur",
+    "regionId": "81-07"
+  },
+  {
+    "province": "Maluku",
+    "provinceFile": "maluku-simplified-topo.json",
+    "region": "Tual",
+    "regionId": "81-72"
+  },
+  {
+    "province": "Maluku Utara",
+    "provinceFile": "maluku-utara-simplified-topo.json",
+    "region": "Halmahera Barat",
+    "regionId": "82-01"
+  },
+  {
+    "province": "Maluku Utara",
+    "provinceFile": "maluku-utara-simplified-topo.json",
+    "region": "Halmahera Selatan",
+    "regionId": "82-04"
+  },
+  {
+    "province": "Maluku Utara",
+    "provinceFile": "maluku-utara-simplified-topo.json",
+    "region": "Halmahera Tengah",
+    "regionId": "82-02"
+  },
+  {
+    "province": "Maluku Utara",
+    "provinceFile": "maluku-utara-simplified-topo.json",
+    "region": "Halmahera Timur",
+    "regionId": "82-06"
+  },
+  {
+    "province": "Maluku Utara",
+    "provinceFile": "maluku-utara-simplified-topo.json",
+    "region": "Halmahera Utara",
+    "regionId": "82-05"
+  },
+  {
+    "province": "Maluku Utara",
+    "provinceFile": "maluku-utara-simplified-topo.json",
+    "region": "Kepulauan Sula",
+    "regionId": "82-03"
+  },
+  {
+    "province": "Maluku Utara",
+    "provinceFile": "maluku-utara-simplified-topo.json",
+    "region": "Pulau Morotai",
+    "regionId": "82-07"
+  },
+  {
+    "province": "Maluku Utara",
+    "provinceFile": "maluku-utara-simplified-topo.json",
+    "region": "Pulau Taliabu",
+    "regionId": "82-08"
+  },
+  {
+    "province": "Maluku Utara",
+    "provinceFile": "maluku-utara-simplified-topo.json",
+    "region": "Ternate",
+    "regionId": "82-71"
+  },
+  {
+    "province": "Maluku Utara",
+    "provinceFile": "maluku-utara-simplified-topo.json",
+    "region": "Tidore Kepulauan",
+    "regionId": "82-72"
+  },
+  {
+    "province": "Nusa Tenggara Barat",
+    "provinceFile": "nusa-tenggara-barat-simplified-topo.json",
+    "region": "Bima",
+    "regionId": "52-06"
+  },
+  {
+    "province": "Nusa Tenggara Barat",
+    "provinceFile": "nusa-tenggara-barat-simplified-topo.json",
+    "region": "Bima",
+    "regionId": "52-72"
+  },
+  {
+    "province": "Nusa Tenggara Barat",
+    "provinceFile": "nusa-tenggara-barat-simplified-topo.json",
+    "region": "Dompu",
+    "regionId": "52-05"
+  },
+  {
+    "province": "Nusa Tenggara Barat",
+    "provinceFile": "nusa-tenggara-barat-simplified-topo.json",
+    "region": "Lombok Barat",
+    "regionId": "52-01"
+  },
+  {
+    "province": "Nusa Tenggara Barat",
+    "provinceFile": "nusa-tenggara-barat-simplified-topo.json",
+    "region": "Lombok Tengah",
+    "regionId": "52-02"
+  },
+  {
+    "province": "Nusa Tenggara Barat",
+    "provinceFile": "nusa-tenggara-barat-simplified-topo.json",
+    "region": "Lombok Timur",
+    "regionId": "52-03"
+  },
+  {
+    "province": "Nusa Tenggara Barat",
+    "provinceFile": "nusa-tenggara-barat-simplified-topo.json",
+    "region": "Lombok Utara",
+    "regionId": "52-08"
+  },
+  {
+    "province": "Nusa Tenggara Barat",
+    "provinceFile": "nusa-tenggara-barat-simplified-topo.json",
+    "region": "Mataram",
+    "regionId": "52-71"
+  },
+  {
+    "province": "Nusa Tenggara Barat",
+    "provinceFile": "nusa-tenggara-barat-simplified-topo.json",
+    "region": "Sumbawa",
+    "regionId": "52-04"
+  },
+  {
+    "province": "Nusa Tenggara Barat",
+    "provinceFile": "nusa-tenggara-barat-simplified-topo.json",
+    "region": "Sumbawa Barat",
+    "regionId": "52-07"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Alor",
+    "regionId": "53-07"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Belu",
+    "regionId": "53-06"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Ende",
+    "regionId": "53-11"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Flores Timur",
+    "regionId": "53-09"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Kota Kupang",
+    "regionId": "53-71"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Kupang",
+    "regionId": "53-03"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Lembata",
+    "regionId": "53-08"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Malaka",
+    "regionId": "53-21"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Manggarai",
+    "regionId": "53-13"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Manggarai Barat",
+    "regionId": "53-15"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Manggarai Timur",
+    "regionId": "53-19"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Nagekeo",
+    "regionId": "53-18"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Ngada",
+    "regionId": "53-12"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Rote Ndao",
+    "regionId": "53-14"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Sabu Raijua",
+    "regionId": "53-20"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Sikka",
+    "regionId": "53-10"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Sumba Barat",
+    "regionId": "53-01"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Sumba Barat Daya",
+    "regionId": "53-17"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Sumba Tengah",
+    "regionId": "53-16"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Sumba Timur",
+    "regionId": "53-02"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Timor Tengah Selatan",
+    "regionId": "53-04"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Timor Tengah Selatan",
+    "regionId": "53-04"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Timor Tengah Selatan",
+    "regionId": "53-04"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Timor Tengah Selatan",
+    "regionId": "53-04"
+  },
+  {
+    "province": "Nusa Tenggara Timur",
+    "provinceFile": "nusa-tenggara-timur-simplified-topo.json",
+    "region": "Timor Tengah Utara",
+    "regionId": "53-05"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Asmat",
+    "regionId": "94-15"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Biak Numfor",
+    "regionId": "94-09"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Boven Digoel",
+    "regionId": "94-13"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Deiyai",
+    "regionId": "94-36"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Dogiyai",
+    "regionId": "94-34"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Intan Jaya",
+    "regionId": "94-35"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Jayapura",
+    "regionId": "94-03"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Jayapura",
+    "regionId": "94-71"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Jayawijaya",
+    "regionId": "94-02"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Keerom",
+    "regionId": "94-20"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Kepulauan Yapen",
+    "regionId": "94-08"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Lanny Jaya",
+    "regionId": "94-30"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Mamberamo Raya",
+    "regionId": "94-28"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Mamberamo Tengah",
+    "regionId": "94-31"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Mappi",
+    "regionId": "94-14"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Merauke",
+    "regionId": "94-01"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Mimika",
+    "regionId": "94-12"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Nabire",
+    "regionId": "94-04"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Nduga",
+    "regionId": "94-29"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Paniai",
+    "regionId": "94-10"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Pegunungan Bintang",
+    "regionId": "94-17"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Puncak",
+    "regionId": "94-33"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Puncak Jaya",
+    "regionId": "94-11"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Sarmi",
+    "regionId": "94-19"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Supiori",
+    "regionId": "94-27"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Tolikara",
+    "regionId": "94-18"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Waropen",
+    "regionId": "94-26"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Yahukimo",
+    "regionId": "94-16"
+  },
+  {
+    "province": "Papua",
+    "provinceFile": "papua-simplified-topo.json",
+    "region": "Yalimo",
+    "regionId": "94-32"
+  },
+  {
+    "province": "Papua Barat",
+    "provinceFile": "papua-barat-simplified-topo.json",
+    "region": "Fakfak",
+    "regionId": "91-01"
+  },
+  {
+    "province": "Papua Barat",
+    "provinceFile": "papua-barat-simplified-topo.json",
+    "region": "Kaimana",
+    "regionId": "91-02"
+  },
+  {
+    "province": "Papua Barat",
+    "provinceFile": "papua-barat-simplified-topo.json",
+    "region": "Manokwari",
+    "regionId": "91-05"
+  },
+  {
+    "province": "Papua Barat",
+    "provinceFile": "papua-barat-simplified-topo.json",
+    "region": "Manokwari",
+    "regionId": "91-12"
+  },
+  {
+    "province": "Papua Barat",
+    "provinceFile": "papua-barat-simplified-topo.json",
+    "region": "Manokwari Selatan",
+    "regionId": "91-11"
+  },
+  {
+    "province": "Papua Barat",
+    "provinceFile": "papua-barat-simplified-topo.json",
+    "region": "Maybrat",
+    "regionId": "91-10"
+  },
+  {
+    "province": "Papua Barat",
+    "provinceFile": "papua-barat-simplified-topo.json",
+    "region": "Raja Ampat",
+    "regionId": "91-08"
+  },
+  {
+    "province": "Papua Barat",
+    "provinceFile": "papua-barat-simplified-topo.json",
+    "region": "Sorong",
+    "regionId": "91-07"
+  },
+  {
+    "province": "Papua Barat",
+    "provinceFile": "papua-barat-simplified-topo.json",
+    "region": "Sorong",
+    "regionId": "91-71"
+  },
+  {
+    "province": "Papua Barat",
+    "provinceFile": "papua-barat-simplified-topo.json",
+    "region": "Sorong Selatan",
+    "regionId": "91-06"
+  },
+  {
+    "province": "Papua Barat",
+    "provinceFile": "papua-barat-simplified-topo.json",
+    "region": "Tambrauw",
+    "regionId": "91-09"
+  },
+  {
+    "province": "Papua Barat",
+    "provinceFile": "papua-barat-simplified-topo.json",
+    "region": "Teluk Bintuni",
+    "regionId": "91-04"
+  },
+  {
+    "province": "Papua Barat",
+    "provinceFile": "papua-barat-simplified-topo.json",
+    "region": "Teluk Wondama",
+    "regionId": "91-03"
+  },
+  {
+    "province": "Riau",
+    "provinceFile": "riau-simplified-topo.json",
+    "region": "Bengkalis",
+    "regionId": "14-08"
+  },
+  {
+    "province": "Riau",
+    "provinceFile": "riau-simplified-topo.json",
+    "region": "Dumai",
+    "regionId": "14-73"
+  },
+  {
+    "province": "Riau",
+    "provinceFile": "riau-simplified-topo.json",
+    "region": "Indragiri Hilir",
+    "regionId": "14-03"
+  },
+  {
+    "province": "Riau",
+    "provinceFile": "riau-simplified-topo.json",
+    "region": "Indragiri Hulu",
+    "regionId": "14-02"
+  },
+  {
+    "province": "Riau",
+    "provinceFile": "riau-simplified-topo.json",
+    "region": "Kampar",
+    "regionId": "14-06"
+  },
+  {
+    "province": "Riau",
+    "provinceFile": "riau-simplified-topo.json",
+    "region": "Kepulauan Meranti",
+    "regionId": "14-10"
+  },
+  {
+    "province": "Riau",
+    "provinceFile": "riau-simplified-topo.json",
+    "region": "Kuantan Singingi",
+    "regionId": "14-01"
+  },
+  {
+    "province": "Riau",
+    "provinceFile": "riau-simplified-topo.json",
+    "region": "Pekanbaru",
+    "regionId": "14-71"
+  },
+  {
+    "province": "Riau",
+    "provinceFile": "riau-simplified-topo.json",
+    "region": "Pelalawan",
+    "regionId": "14-04"
+  },
+  {
+    "province": "Riau",
+    "provinceFile": "riau-simplified-topo.json",
+    "region": "Rokan Hilir",
+    "regionId": "14-09"
+  },
+  {
+    "province": "Riau",
+    "provinceFile": "riau-simplified-topo.json",
+    "region": "Rokan Hulu",
+    "regionId": "14-07"
+  },
+  {
+    "province": "Riau",
+    "provinceFile": "riau-simplified-topo.json",
+    "region": "Siak",
+    "regionId": "14-05"
+  },
+  {
+    "province": "Sulawesi Barat",
+    "provinceFile": "sulawesi-barat-simplified-topo.json",
+    "region": "Majene",
+    "regionId": "76-01"
+  },
+  {
+    "province": "Sulawesi Barat",
+    "provinceFile": "sulawesi-barat-simplified-topo.json",
+    "region": "Mamasa",
+    "regionId": "76-03"
+  },
+  {
+    "province": "Sulawesi Barat",
+    "provinceFile": "sulawesi-barat-simplified-topo.json",
+    "region": "Mamuju",
+    "regionId": "76-04"
+  },
+  {
+    "province": "Sulawesi Barat",
+    "provinceFile": "sulawesi-barat-simplified-topo.json",
+    "region": "Mamuju Tengah",
+    "regionId": "76-06"
+  },
+  {
+    "province": "Sulawesi Barat",
+    "provinceFile": "sulawesi-barat-simplified-topo.json",
+    "region": "Mamuju Utara",
+    "regionId": "76-05"
+  },
+  {
+    "province": "Sulawesi Barat",
+    "provinceFile": "sulawesi-barat-simplified-topo.json",
+    "region": "Polewali Mandar",
+    "regionId": "76-02"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Bantaeng",
+    "regionId": "73-03"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Barru",
+    "regionId": "73-10"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Bone",
+    "regionId": "73-11"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Bulukumba",
+    "regionId": "73-02"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Enrekang",
+    "regionId": "73-16"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Gowa",
+    "regionId": "73-06"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Jeneponto",
+    "regionId": "73-04"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Kepulauan Selayar",
+    "regionId": "73-01"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Luwu",
+    "regionId": "73-17"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Luwu Timur",
+    "regionId": "73-25"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Luwu Utara",
+    "regionId": "73-22"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Makassar",
+    "regionId": "73-71"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Maros",
+    "regionId": "73-08"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Palopo",
+    "regionId": "73-73"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Pangkajene Dan Kepulauan",
+    "regionId": "73-09"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Parepare",
+    "regionId": "73-72"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Pinrang",
+    "regionId": "73-15"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Sidenreng Rappang",
+    "regionId": "73-14"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Sinjai",
+    "regionId": "73-07"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Soppeng",
+    "regionId": "73-12"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Takalar",
+    "regionId": "73-05"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Tana Toraja",
+    "regionId": "73-18"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Toraja Utara",
+    "regionId": "73-26"
+  },
+  {
+    "province": "Sulawesi Selatan",
+    "provinceFile": "sulawesi-selatan-simplified-topo.json",
+    "region": "Wajo",
+    "regionId": "73-13"
+  },
+  {
+    "province": "Sulawesi Tengah",
+    "provinceFile": "sulawesi-tengah-simplified-topo.json",
+    "region": "Banggai",
+    "regionId": "72-02"
+  },
+  {
+    "province": "Sulawesi Tengah",
+    "provinceFile": "sulawesi-tengah-simplified-topo.json",
+    "region": "Banggai Kepulauan",
+    "regionId": "72-01"
+  },
+  {
+    "province": "Sulawesi Tengah",
+    "provinceFile": "sulawesi-tengah-simplified-topo.json",
+    "region": "Banggai Laut",
+    "regionId": "72-11"
+  },
+  {
+    "province": "Sulawesi Tengah",
+    "provinceFile": "sulawesi-tengah-simplified-topo.json",
+    "region": "Buol",
+    "regionId": "72-07"
+  },
+  {
+    "province": "Sulawesi Tengah",
+    "provinceFile": "sulawesi-tengah-simplified-topo.json",
+    "region": "Donggala",
+    "regionId": "72-05"
+  },
+  {
+    "province": "Sulawesi Tengah",
+    "provinceFile": "sulawesi-tengah-simplified-topo.json",
+    "region": "Morowali",
+    "regionId": "72-03"
+  },
+  {
+    "province": "Sulawesi Tengah",
+    "provinceFile": "sulawesi-tengah-simplified-topo.json",
+    "region": "Morowali Utara",
+    "regionId": "72-12"
+  },
+  {
+    "province": "Sulawesi Tengah",
+    "provinceFile": "sulawesi-tengah-simplified-topo.json",
+    "region": "Palu",
+    "regionId": "72-71"
+  },
+  {
+    "province": "Sulawesi Tengah",
+    "provinceFile": "sulawesi-tengah-simplified-topo.json",
+    "region": "Parigi Moutong",
+    "regionId": "72-08"
+  },
+  {
+    "province": "Sulawesi Tengah",
+    "provinceFile": "sulawesi-tengah-simplified-topo.json",
+    "region": "Poso",
+    "regionId": "72-04"
+  },
+  {
+    "province": "Sulawesi Tengah",
+    "provinceFile": "sulawesi-tengah-simplified-topo.json",
+    "region": "Sigi",
+    "regionId": "72-10"
+  },
+  {
+    "province": "Sulawesi Tengah",
+    "provinceFile": "sulawesi-tengah-simplified-topo.json",
+    "region": "Tojo Una-Una",
+    "regionId": "72-09"
+  },
+  {
+    "province": "Sulawesi Tengah",
+    "provinceFile": "sulawesi-tengah-simplified-topo.json",
+    "region": "Tolitoli",
+    "regionId": "72-06"
+  },
+  {
+    "province": "Sulawesi Tenggara",
+    "provinceFile": "sulawesi-tenggara-simplified-topo.json",
+    "region": "Baubau",
+    "regionId": "74-72"
+  },
+  {
+    "province": "Sulawesi Tenggara",
+    "provinceFile": "sulawesi-tenggara-simplified-topo.json",
+    "region": "Bombana",
+    "regionId": "74-06"
+  },
+  {
+    "province": "Sulawesi Tenggara",
+    "provinceFile": "sulawesi-tenggara-simplified-topo.json",
+    "region": "Buton",
+    "regionId": "74-01"
+  },
+  {
+    "province": "Sulawesi Tenggara",
+    "provinceFile": "sulawesi-tenggara-simplified-topo.json",
+    "region": "Buton Utara",
+    "regionId": "74-09"
+  },
+  {
+    "province": "Sulawesi Tenggara",
+    "provinceFile": "sulawesi-tenggara-simplified-topo.json",
+    "region": "Kendari",
+    "regionId": "74-71"
+  },
+  {
+    "province": "Sulawesi Tenggara",
+    "provinceFile": "sulawesi-tenggara-simplified-topo.json",
+    "region": "Kolaka",
+    "regionId": "74-04"
+  },
+  {
+    "province": "Sulawesi Tenggara",
+    "provinceFile": "sulawesi-tenggara-simplified-topo.json",
+    "region": "Kolaka Timur",
+    "regionId": "74-11"
+  },
+  {
+    "province": "Sulawesi Tenggara",
+    "provinceFile": "sulawesi-tenggara-simplified-topo.json",
+    "region": "Kolaka Utara",
+    "regionId": "74-08"
+  },
+  {
+    "province": "Sulawesi Tenggara",
+    "provinceFile": "sulawesi-tenggara-simplified-topo.json",
+    "region": "Konawe",
+    "regionId": "74-03"
+  },
+  {
+    "province": "Sulawesi Tenggara",
+    "provinceFile": "sulawesi-tenggara-simplified-topo.json",
+    "region": "Konawe Selatan",
+    "regionId": "74-05"
+  },
+  {
+    "province": "Sulawesi Tenggara",
+    "provinceFile": "sulawesi-tenggara-simplified-topo.json",
+    "region": "Konawe Utara",
+    "regionId": "74-10"
+  },
+  {
+    "province": "Sulawesi Tenggara",
+    "provinceFile": "sulawesi-tenggara-simplified-topo.json",
+    "region": "Muna",
+    "regionId": "74-02"
+  },
+  {
+    "province": "Sulawesi Tenggara",
+    "provinceFile": "sulawesi-tenggara-simplified-topo.json",
+    "region": "Wakatobi",
+    "regionId": "74-07"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Bitung",
+    "regionId": "71-72"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Bolaang Mongondow",
+    "regionId": "71-01"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Bolaang Mongondow Selatan",
+    "regionId": "71-10"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Bolaang Mongondow Timur",
+    "regionId": "71-11"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Bolaang Mongondow Utara",
+    "regionId": "71-07"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Kepulauan Sangihe",
+    "regionId": "71-03"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Kepulauan Talaud",
+    "regionId": "71-04"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Kotamobagu",
+    "regionId": "71-74"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Manado",
+    "regionId": "71-71"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Minahasa",
+    "regionId": "71-02"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Minahasa Selatan",
+    "regionId": "71-05"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Minahasa Tenggara",
+    "regionId": "71-09"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Minahasa Utara",
+    "regionId": "71-06"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Siau Tagulandang Biaro",
+    "regionId": "71-08"
+  },
+  {
+    "province": "Sulawesi Utara",
+    "provinceFile": "sulawesi-utara-simplified-topo.json",
+    "region": "Tomohon",
+    "regionId": "71-73"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Agam",
+    "regionId": "13-07"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Bukittinggi",
+    "regionId": "13-75"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Dharmasraya",
+    "regionId": "13-11"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Kepulauan Mentawai",
+    "regionId": "13-01"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Lima Puluh Kota",
+    "regionId": "13-08"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Padang",
+    "regionId": "13-71"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Padang Panjang",
+    "regionId": "13-74"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Padang Pariaman",
+    "regionId": "13-06"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Pariaman",
+    "regionId": "13-77"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Pasaman",
+    "regionId": "13-09"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Pasaman Barat",
+    "regionId": "13-12"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Payakumbuh",
+    "regionId": "13-76"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Pesisir Selatan",
+    "regionId": "13-02"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Sawah Lunto",
+    "regionId": "13-73"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Sijunjung",
+    "regionId": "13-04"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Solok",
+    "regionId": "13-03"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Solok",
+    "regionId": "13-72"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Solok Selatan",
+    "regionId": "13-10"
+  },
+  {
+    "province": "Sumatera Barat",
+    "provinceFile": "sumatera-barat-simplified-topo.json",
+    "region": "Tanah Datar",
+    "regionId": "13-05"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Banyuasin",
+    "regionId": "16-07"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Empat Lawang",
+    "regionId": "16-11"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Lahat",
+    "regionId": "16-04"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Lubuklinggau",
+    "regionId": "16-74"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Muara Enim",
+    "regionId": "16-03"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Musi Banyuasin",
+    "regionId": "16-06"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Musi Rawas",
+    "regionId": "16-05"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Musi Rawas Utara",
+    "regionId": "16-13"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Ogan Ilir",
+    "regionId": "16-10"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Ogan Komering Ilir",
+    "regionId": "16-02"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Ogan Komering Ulu",
+    "regionId": "16-01"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Ogan Komering Ulu Selatan",
+    "regionId": "16-08"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Ogan Komering Ulu Timur",
+    "regionId": "16-09"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Pagar Alam",
+    "regionId": "16-73"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Palembang",
+    "regionId": "16-71"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Penukal Abab Lematang Ilir",
+    "regionId": "16-12"
+  },
+  {
+    "province": "Sumatera Selatan",
+    "provinceFile": "sumatera-selatan-simplified-topo.json",
+    "region": "Prabumulih",
+    "regionId": "16-72"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Asahan",
+    "regionId": "12-08"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Batu Bara",
+    "regionId": "12-19"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Binjai",
+    "regionId": "12-76"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Dairi",
+    "regionId": "12-10"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Danau Toba",
+    "regionId": "12-88"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Deli Serdang",
+    "regionId": "12-12"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Gunungsitoli",
+    "regionId": "12-78"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Humbang Hasundutan",
+    "regionId": "12-15"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Karo",
+    "regionId": "12-11"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Labuhan Batu",
+    "regionId": "12-07"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Labuhan Batu Selatan",
+    "regionId": "12-22"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Labuhan Batu Utara",
+    "regionId": "12-23"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Langkat",
+    "regionId": "12-13"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Mandailing Natal",
+    "regionId": "12-02"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Medan",
+    "regionId": "12-75"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Nias",
+    "regionId": "12-01"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Nias Barat",
+    "regionId": "12-25"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Nias Selatan",
+    "regionId": "12-14"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Nias Utara",
+    "regionId": "12-24"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Padang Lawas",
+    "regionId": "12-21"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Padang Lawas Utara",
+    "regionId": "12-20"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Padangsidimpuan",
+    "regionId": "12-77"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Pakpak Bharat",
+    "regionId": "12-16"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Pematang Siantar",
+    "regionId": "12-73"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Samosir",
+    "regionId": "12-17"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Serdang Bedagai",
+    "regionId": "12-18"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Sibolga",
+    "regionId": "12-71"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Simalungun",
+    "regionId": "12-09"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Tanjung Balai",
+    "regionId": "12-72"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Tapanuli Selatan",
+    "regionId": "12-03"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Tapanuli Tengah",
+    "regionId": "12-04"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Tapanuli Utara",
+    "regionId": "12-05"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Tebing Tinggi",
+    "regionId": "12-74"
+  },
+  {
+    "province": "Sumatera Utara",
+    "provinceFile": "sumatera-utara-simplified-topo.json",
+    "region": "Toba Samosir",
+    "regionId": "12-06"
+  },
+  {
+    "province": "Yogyakarta",
+    "provinceFile": "yogyakarta-simplified-topo.json",
+    "region": "Bantul",
+    "regionId": "34-02"
+  },
+  {
+    "province": "Yogyakarta",
+    "provinceFile": "yogyakarta-simplified-topo.json",
+    "region": "Gunung Kidul",
+    "regionId": "34-03"
+  },
+  {
+    "province": "Yogyakarta",
+    "provinceFile": "yogyakarta-simplified-topo.json",
+    "region": "Kulon Progo",
+    "regionId": "34-01"
+  },
+  {
+    "province": "Yogyakarta",
+    "provinceFile": "yogyakarta-simplified-topo.json",
+    "region": "Sleman",
+    "regionId": "34-04"
+  },
+  {
+    "province": "Yogyakarta",
+    "provinceFile": "yogyakarta-simplified-topo.json",
+    "region": "Yogyakarta",
+    "regionId": "34-71"
+  }
+]

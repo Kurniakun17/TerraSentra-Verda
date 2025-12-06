@@ -67,8 +67,15 @@ const PotentialRegion = ({ geoJsonData }) => {
     );
   }
 
+  const getInvestmentScore = (region) => {
+    const score = region?.potential_score;
+    return Number.isFinite(score) ? score : 50;
+  };
+
   const onEachFeature = (feature, layer) => {
     const provinceName = feature.properties.provinsi;
+
+    
 
     const formattedProvinceName = provinceName.toLowerCase().replace(" ", "-");
     const fileName = formattedProvinceName + "-simplified-topo.json";
@@ -77,7 +84,7 @@ const PotentialRegion = ({ geoJsonData }) => {
       (region) => region.province.toLowerCase() === provinceName.toLowerCase()
     );
 
-    const score = regionData?.ai_investment_score || 50;
+    const score = getInvestmentScore(regionData);
     console.log(score);
     layer.on({
       mouseover: () => {
@@ -122,7 +129,7 @@ const PotentialRegion = ({ geoJsonData }) => {
       (region) => region.province.toLowerCase() === cityName.toLowerCase()
     );
 
-    const score = regionData?.ai_investment_score || 50;
+    const score = getInvestmentScore(regionData);
 
     layer.on({
       mouseover: () => {
@@ -156,7 +163,7 @@ const PotentialRegion = ({ geoJsonData }) => {
       (region) => region.province.toLowerCase() === provinceName.toLowerCase()
     );
 
-    const score = regionData?.ai_investment_score || 50;
+    const score = getInvestmentScore(regionData);
 
     return {
       fillColor: getScoreColor(score),
@@ -175,7 +182,7 @@ const PotentialRegion = ({ geoJsonData }) => {
       (region) => region.province.toLowerCase() === provinceName.toLowerCase()
     );
 
-    const score = regionData?.ai_investment_score || 50;
+    const score = getInvestmentScore(regionData);
 
     return {
       fillColor: getScoreColor(score),
@@ -191,7 +198,7 @@ const PotentialRegion = ({ geoJsonData }) => {
     return regions
       .map((region) => ({
         name: region.province,
-        score: region.ai_investment_score || 50,
+        score: getInvestmentScore(region),
       }))
       .sort((a, b) => b.score - a.score)
       .slice(0, 5);

@@ -45,7 +45,7 @@ export default function Navbar() {
                     href="/greenbond-investment"
                     className="hover:bg-gray-100 text-sm"
                   >
-                    Green Bond Investment
+                    Green Bond Exploration
                   </a>
                   <a
                     href="/carbon-offset-exchange"

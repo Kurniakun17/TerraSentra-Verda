@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node extract-regions.js:*)",
+      "Bash(node:*)",
+      "Bash(cat:*)",
+      "WebSearch"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

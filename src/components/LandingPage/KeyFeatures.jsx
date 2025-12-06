@@ -114,7 +114,7 @@ export default function KeyFeatures() {
                     <TrendingUp className="h-6 w-6" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                    Green Bond Investment
+                    Green Bond Exploration
                   </h3>
                   <p className="text-gray-500 mb-6">
                     Invest in large-scale green projects with returns in the
@@ -199,7 +199,6 @@ export default function KeyFeatures() {
               </div>
             </div>
 
-      
             {/* Feature 4 */}
             <div className="flex flex-col lg:flex-row">
               <div className="flex-1">

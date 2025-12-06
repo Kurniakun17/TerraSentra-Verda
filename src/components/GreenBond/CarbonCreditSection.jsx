@@ -14,17 +14,27 @@ import useGreenBondStore from "../../store/greenBondStore";
 export default function CarbonCreditSection() {
   const [activeView, setActiveView] = useState("overview");
   const { bondDetail } = useGreenBondStore();
-  const totalCarbonCredits = bondDetail.carbonabsorbed * (bondDetail.duration/12)
+  const impact = bondDetail?.carbon_impact || {};
+
+  const totalCarbonCredits =
+    impact.total_credits ??
+    (bondDetail.carbonabsorbed || 0) * ((bondDetail.duration || 0) / 12);
+
+  const yearlyReduction =
+    impact.annual_absorption ?? bondDetail.carbonabsorbed ?? 0;
+
+  const carbonPrice = impact.price_per_ton ?? bondDetail.currentcarbonprice ?? 0;
 
   const carbonData = {
     totalCredits: totalCarbonCredits,
-    yearlyReduction: bondDetail.carbonabsorbed,
-    treeEquivalent: Math.round(totalCarbonCredits * 1.7),
-    carEquivalent: Math.round(totalCarbonCredits * 0.22),
-    homeEquivalent: Math.round(totalCarbonCredits * 0.13),
-    certifiedBy: "Verified Carbon Standard (VCS)",
-    projectStart: "2022",
-    carbonPrice: `${formatCurrency(bondDetail.currentCarbonPrice)} per ton`,
+    yearlyReduction,
+    treeEquivalent: impact.trees_equivalent ?? Math.round(totalCarbonCredits * 1.7),
+    carEquivalent: impact.cars_equivalent ?? Math.round(totalCarbonCredits * 0.22),
+    homeEquivalent: impact.homes_equivalent ?? Math.round(totalCarbonCredits * 0.13),
+    certifiedBy: impact.certifier ?? "Verified Carbon Standard (VCS)",
+    projectStart: impact.start_year ?? "N/A",
+    carbonPrice: `${formatCurrency(carbonPrice)} per ton`,
+    methodology: impact.methodology ?? "N/A",
   };
 
   const projectTypes = [
@@ -188,7 +198,7 @@ export default function CarbonCreditSection() {
             </div>
             <p className="text-sm text-green-600 mt-2 flex items-center">
               <ArrowRight className="h-3 w-3 mr-1" />
-              Annual reduction of {bondDetail.carbonabsorbed.toLocaleString()}{" "}
+              Annual reduction of {yearlyReduction.toLocaleString()}{" "}
               tons CO₂e
             </p>
           </div>
@@ -196,13 +206,11 @@ export default function CarbonCreditSection() {
             <p className="text-sm text-gray-600 mb-1">Market Value</p>
             <div className="flex items-baseline">
               <h3 className="text-4xl font-bold text-gray-900">
-                {formatCurrency(
-                  totalCarbonCredits * bondDetail.currentcarbonprice
-                )}
+                {formatCurrency(totalCarbonCredits * carbonPrice)}
               </h3>
             </div>
             <p className="text-sm text-gray-600 mt-2">
-              Based on <span className="font-semibold">{formatCurrency(bondDetail.currentcarbonprice)}/carbon credit</span> market
+              Based on <span className="font-semibold">{formatCurrency(carbonPrice)}/carbon credit</span> market
               rate
             </p>
           </div>

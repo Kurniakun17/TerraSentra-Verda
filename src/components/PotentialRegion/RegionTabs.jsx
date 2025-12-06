@@ -31,6 +31,7 @@ export default function RegionTabs({ data }) {
   const [tooltipContent, setTooltipContent] = useState(null);
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
   const [showJobs, setShowJobs] = useState(false);
+  const score = data.potential_score ?? data.ai_investment_score ?? 0;
 
   const getScoreRating = (score) => {
     if (score > 50) return "High";
@@ -151,12 +152,10 @@ export default function RegionTabs({ data }) {
                       </h3>
                       <div className="flex items-center gap-2">
                         <Award size={24} />
-                        <span className="text-3xl font-bold">
-                          {data.ai_investment_score}
-                        </span>
+                        <span className="text-3xl font-bold">{score}</span>
                       </div>
                       <p className="mt-1 text-white/70">
-                        Rating: {getScoreRating(data.ai_investment_score)}
+                        Rating: {getScoreRating(score)}
                       </p>
                     </div>
 
